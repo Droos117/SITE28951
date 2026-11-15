@@ -1,0 +1,216 @@
+body{
+    background-color: rgb(29, 29, 29);
+    display: flex;
+
+    overflow-x: hidden;
+    overflow-y  : hidden;
+}
+
+
+/*
+ INPUT 
+*/
+
+.INPUT_Email_Login{
+    position: absolute;
+    top: 320px;
+    left: 840px;
+    width: 250px;
+    height: 25px;
+
+    border: 1px solid #383838;
+    border-radius: 4px;
+
+    background-color: rgba(32, 32, 32, 0.678);
+    color: rgb(131, 127, 127);
+
+    padding-left: 10px;
+
+    z-index: 1;
+}
+.INPUT_Pass_Login{
+    position: absolute;
+    top: 385px;
+    left: 840px;
+    width: 250px;
+    height: 25px;
+
+    border: 1px solid #383838;
+    border-radius: 4px;
+
+    background-color: rgba(32, 32, 32, 0.678);
+    color: rgb(131, 127, 127);
+    
+    padding-left: 10px;
+
+
+    z-index: 1;
+}
+
+
+
+/*
+BUTTON
+*/
+.BUTTON_SubmitLogin{
+    position: absolute;
+    top: 430px;
+    left: 840px;
+    width: 264px;
+    height: 30px;
+
+    outline: none;
+    border: none;
+    border-radius: 3px;
+
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 2, 2);
+
+    z-index: 1;
+}.BUTTON_SubmitLogin:hover{
+    background-color: rgb(224, 222, 222);
+    cursor: pointer;
+}
+
+.BUTTON_SGUP{
+    position: absolute;
+    left: 998px;
+    top: 462px;
+
+    border: none;
+    outline: none;
+    
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(160, 99, 240);
+
+    font-family: arial;
+    font-size: 11px;
+    letter-spacing: 1px;;
+
+    z-index: 1;
+}.BUTTON_SGUP:hover{
+    color: rgb(114, 55, 192);
+    cursor: pointer;
+}
+
+
+
+/*
+TEMPLATES 
+*/
+.SQUARE_LoginTela {
+    position: absolute;
+    top: 270px;
+    left: 800px;
+    width: 340px;
+    height: 245px;
+
+    background: linear-gradient(
+        160deg,
+        rgba(116, 60, 245, 0.233) 0%,
+        rgba(30, 25, 45, 0.15) 35%,
+        rgba(10, 10, 15, 0.5) 100%
+    );
+
+    border: 1px solid rgba(145, 60, 255, 0.9);
+    border-radius: 12px;
+
+    box-shadow:
+        0px 0px 5px rgba(144, 60, 255, 0.568),
+        0px 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.SQUARE_TemplateAD{
+    position: absolute;
+    top: 870px;
+    left: 0px;
+
+    width: 2000px;
+    height: 1px;
+
+    background-color: rgb(73, 71, 71);
+}
+
+
+/*
+ TEXT
+ */
+ .TEXT_sEmail{
+    position: absolute;
+    top: 300px;
+    left: 840px;
+
+    color: rgb(255, 255, 255);
+
+    font-family: arial;
+    font-size: 14px;
+ }
+  .TEXT_sPass{
+    position: absolute;
+    top: 366px;
+    left: 840px;
+
+    color: white;
+
+    font-family: arial;
+    font-size: 14px;
+
+ }
+ .TEXT_s_1{
+    position: absolute;
+    top: 300px;
+    left: 880px;
+    color: rgb(141, 86, 179);
+
+    font-size: 15px;
+ } .TEXT_s_2{
+    position: absolute;
+    top: 367px;
+    left: 906px;
+    color: rgb(141, 86, 179);
+
+    font-size: 15px;
+ }
+
+ .TEXT_CrAcc{
+    position: absolute;
+    top: 463px;
+    left: 875px;
+
+    color: rgba(255, 255, 255, 0.74);
+
+    font-family: Arial;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+ }
+
+
+
+ /*
+ IMAGE
+ */
+.IMG_BackGround{
+    position: absolute;
+    left:0px;
+    top: 0px;
+    height: 870px;
+    width: 1920px;
+}
+
+
+.TXT_ErrorMessageCredencials{
+    position: absolute;
+    top: 480px;
+    left: 814px;
+
+    color :rgb(250, 69, 69);
+
+    font-family: Arial;
+    font-size: 12px;
+
+    z-index: 1;
+}
